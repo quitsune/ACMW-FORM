@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fcfcfc;
+  color: rgb(255, 255, 255);
+  
+}
+h1 {
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 4px rgb(75, 75, 75);
+}
+
+
+@media(max-width:767px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+.background{
+  margin: none;
+  height: 15rem;
+  background-image: linear-gradient(to  right,#759195 , #87bfc4 );
+  padding:4rem;
+}
+.content{
+ padding-bottom: 2rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 1rem;
+  background-color: #24505f;
+
+  
+}
+
+li{
+  color: white;
+  display: inline;
+
+}
+
+a:link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin: 0.2rem;
+  font-size: 0.8rem;
+}
+
+
+.submits {
+  width: 45%;
+  margin-top:2rem;
+  text-align: center;
+  display: inline-block;
+  color: #252537;
+margin-left: 18%;
+  width: 200px;
+  height: 50px;
+margin-bottom: 2rem;
+  background: #fff;
+  border-radius: 5px;
+
+  outline: none;
+  border: none;
+
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.2s linear;
+
+ 
+  letter-spacing: 0.05em;
+}
+
+/*       Forgot Password button FAF3DD  */
+
+/*     Sign Up button  */
+.sign-up {
+  background: #81cfd1;
+}
+
+/* buttons hover */
+button:hover {
+  transform: translatey(3px);
+  box-shadow: none;
+}
+
+/* buttons hover Animation */
+button:hover {
+  animation: ani9 0.4s ease-in-out infinite alternate;
+}
+@keyframes ani9 {
+  0% {
+    transform: translateY(3px);
+  }
+  100% {
+    transform: translateY(5px);
+  }
+}
+
+input[type="text"] {
+  width: 30%;
+  height: 50px;
+
+  margin-top: 2%;
+  padding: 15px;
+
+  font-size: 16px;
+  font-family: "Abel", sans-serif;
+ 
+
+  outline: none;
+  border: #81cfd1 solid 0.1rem;
+  background-color: #0c35479f;
+  border-radius: 5px 5px 5px 5px;
+  transition: 0.2s linear;
+}
+
+input[type="email"] {
+  width: 60.5%;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.644);
+  margin-top: 2%;
+  padding: 15px;
+
+  font-size: 16px;
+  font-family: "Abel", sans-serif;
+
+  border: #81cfd1 solid 0.1rem;
+  background-color: #0c35479f;
+  border-radius: 5px 5px 5px 5px;
+  transition: 0.2s linear;
+}
+
+
+input[type="tel"] {
+  width: 45%;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.644);
+  margin-top: 2%;
+  padding: 15px;
+
+  font-size: 16px;
+  font-family: "Abel", sans-serif;
+  border: #81cfd1 solid 0.1rem;
+  background-color: #0c35479f;
+  margin-left: 0rem;
+  border-radius: 5px 5px 5px 5px;
+  transition: 0.2s linear;
+}
+
+select {
+  background-color: rgba(0, 0, 0, 0.644);
+  width: 15%;
+  margin-right: 0;
+  height: 50px;
+  border-radius: 5px 5px 5px 5px;
+  border: #81cfd1 solid 0.1rem;
+  background-color: #0c35479f;
+  margin-top: 2%;
+  padding: 15px;
+  font-size: 16px;
+  font-family: "Abel", sans-serif;
+  color: white;
+}
+
+
+@media(max-width:800px){
+
+  
+  select {
+
+    width: 25%;
+    margin-right: 0;
+    height: 40px;
+    border-radius: 5px 5px 5px 5px;
+  
+    margin-top: 2%;
+    padding: 10px;
+    font-size: 13px;
+    font-family: "Abel", sans-serif;
+  }
+  
+  
+input[type="tel"] {
+  width: 68%;
+  height: 40px;
+
+  margin-top: 2%;
+  padding: 12px;
+
+  font-size: 13px;
+  font-family: "Abel", sans-serif;
+  
+
+
+  margin-left: 0rem;
+  border-radius: 5px 5px 5px 5px;
+  transition: 0.2s linear;
+}
+
+
+	input[type="text"] {
+  width: 95%;
+  height: 40px;
+
+  margin-top: 2%;
+  padding: 10px;
+
+  font-size: 13px;
+  font-family: "Abel", sans-serif;
+ 
+ 
+  border-radius: 5px 5px 5px 5px;
+  transition: 0.2s linear;
+}
+input[type="email"] {
+  width: 94%;
+  height: 40px;
+
+  margin-top: 2%;
+  padding: 10px;
+
+  font-size: 13px;
+  font-family: "Abel", sans-serif;
+ 
+  border-radius: 5px 5px 5px 5px;
+  transition: 0.2s linear;
+}
+
+.submits{
+  height: 40px;
+  margin-left: 5rem;
+  margin-top: 0.5rem;
+  width:45%;
+}
+}
+ td {
+    padding-left: 3rem;
+        text-align: center;
+
+
+      }
+
+
+
+.grid{
+	display: grid;
+
+padding-left: 2rem;
+padding-right: 2rem;
+column-gap: 0.25rem;
+grid-template-columns: 1fr 1fr  ;
+grid-template-rows: 1fr 1fr;
+}
+
+
+
+
+
+
+::placeholder {
+
+  color: white;
+}
+
+.con{
+padding-left: 28%;
+}
+
+.title{
+  margin-left: 12%;
+}
+
+@media(max-width:900px)
+{.background{
+  height:10rem;
+  padding:1.5rem;
+
+
+}
+
+.title{
+  padding-left: 0;
+}
+h3{
+  margin-left: 0;
+  font-size: 0.8rem;
+}
+
+.con{
+  padding-left: 5%;
+}}
+
+.radio{
+  color: #53767b;
+
+}
+
+.radiocontainer{
+padding-left: 20%;
+margin-top: 0.5rem;
+}
+@media(max-width:900px)
+{
+  .radio{
+    color: #53767b;
+  font-size: 0.8rem;
+  }
+  
+}
