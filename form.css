@@ -16,7 +16,7 @@ h1 {
   text-align: center;
   margin: 2rem 0;
   font-size: 2.5rem;
-  text-shadow: 2px 2px 4px rgb(75, 75, 75);
+  text-shadow: 2px 2px 4px rgb(85, 16, 105);
 }
 
 
@@ -25,7 +25,7 @@ h1 {
 .background{
   margin: none;
   height: 15rem;
-  background-image: linear-gradient(to  right,#759195 , #87bfc4 );
+  background-image: linear-gradient(to  right,#540781 , #d3abee );
   padding:4rem;
 }
 .content{
@@ -36,7 +36,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 1rem;
-  background-color: #24505f;
+  background-color: #42034b;
 
   
 }
@@ -60,7 +60,7 @@ a:link {
   margin-top:2rem;
   text-align: center;
   display: inline-block;
-  color: #252537;
+  color: #dddde9;
 
   width: 200px;
   height: 50px;
@@ -83,7 +83,7 @@ margin-bottom: 2rem;
 
 /*     Sign Up button  */
 .sign-up {
-  background: #81cfd1;
+  background: #520266;
 }
 
 /* buttons hover */
@@ -117,8 +117,8 @@ input[type="text"] {
  
 
   outline: none;
-  border: #81cfd1 solid 0.1rem;
-  background-color: #0c35479f;
+  border: #3e025a solid 0.1rem;
+  background-color: #763a9281;
   border-radius: 5px 5px 5px 5px;
   transition: 0.2s linear;
 }
@@ -133,8 +133,8 @@ input[type="email"] {
   font-size: 16px;
   font-family: "Abel", sans-serif;
 
-  border: #81cfd1 solid 0.1rem;
-  background-color: #0c35479f;
+  border: #3e025a solid 0.1rem;
+  background-color: #763a9281;
   border-radius: 5px 5px 5px 5px;
   transition: 0.2s linear;
 }
@@ -149,8 +149,8 @@ input[type="tel"] {
 
   font-size: 16px;
   font-family: "Abel", sans-serif;
-  border: #81cfd1 solid 0.1rem;
-  background-color: #0c35479f;
+  border: #3e025a solid 0.1rem;
+  background-color: #763a9281;
   margin-left: 0rem;
   border-radius: 5px 5px 5px 5px;
   transition: 0.2s linear;
@@ -162,8 +162,8 @@ select {
   margin-right: 0;
   height: 50px;
   border-radius: 5px 5px 5px 5px;
-  border: #81cfd1 solid 0.1rem;
-  background-color: #0c35479f;
+  border: #3e025a solid 0.1rem;
+  background-color: #763a9281;
   margin-top: 2%;
   padding: 15px;
   font-size: 16px;
